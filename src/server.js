@@ -28,7 +28,7 @@ const paysession = require('./controllers/paymentsSession');
 app.get('/', (req, res) => {
   logger.debug('working');
   res.json({
-    message: 'it works',
+    message: 'firestore backend is working',
   });
 });
 

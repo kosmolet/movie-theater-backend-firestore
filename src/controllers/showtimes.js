@@ -52,6 +52,7 @@ router.post('/', async (req, res) => {
         .status(404)
         .json({ message: 'Movie with this ID does not exist' });
     }
+    // eslint-disable-next-line object-curly-newline
     const { startAt, endAt, hallName, unavailableSeats, city } = req.body;
 
     const showtime = await movieRef.collection('showtimes').doc();

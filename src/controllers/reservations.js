@@ -60,6 +60,7 @@ router.post('/', async (req, res) => {
         .status(404)
         .json({ message: 'Showtime with this ID does not exist' });
     }
+    // eslint-disable-next-line object-curly-newline
     const { username, email, isPaymentSucceed, seats, totalPrice } = req.body;
 
     const reservation = await showtimeRef.collection('reservations').doc();

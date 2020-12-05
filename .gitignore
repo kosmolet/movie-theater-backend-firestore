@@ -1,3 +1,5 @@
+requests
+credentials.json
 # Logs
 logs
 *.log

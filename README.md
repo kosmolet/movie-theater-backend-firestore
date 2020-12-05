@@ -1,2 +1,3 @@
 # movie-theater-backend-firestore
-movie-theater-backend with Firestore
+
+Backend with Firestore for Moviestaden movie theater
